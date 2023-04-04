@@ -15,7 +15,11 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache 
-      - run: pip install mkdocs-material \
+      - run: pip install \ 
+              mkdocs \
+              mkdocs-material \
               mkdocs-exclude \
-              mkdocs-roamlinks-plugin
+              mkdocs-roamlinks-plugin \
+              mkdocs-minify-plugin \
+
       - run: mkdocs gh-deploy --force

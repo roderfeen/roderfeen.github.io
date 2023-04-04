@@ -5,7 +5,6 @@
 site_name: "Knowledge Base: Climate Philanthropy"
 theme:
   name: material
-  #  favicon: attachment/portrait.png
   language: en #
   features:
     - navigation.expand # sections are expanded by default
@@ -19,7 +18,7 @@ markdown_extensions:
   - nl2br # newline-to-break 
   - toc:
       permalink: '#' # heading anchor 
-      slugify: !!python/name:pymdownx.slugs.uslugify # 解决中文标题解析问题
+      slugify: !!python/name:pymdownx.slugs.uslugify
   - admonition
   - codehilite:
       guess_lang: false
@@ -45,7 +44,6 @@ markdown_extensions:
 plugins:
   - search
   - roamlinks 
-    #- autolinks 
   - exclude:
       glob:
         - "*.tmp"
