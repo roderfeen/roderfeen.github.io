@@ -2,14 +2,17 @@
 # mkdocs-material: https://squidfunk.github.io/mkdocs-material/
 # mkdocs: https://www.mkdocs.org/user-guide/configuration/
 
-site_name: roderfeen.github
+site_name: "Knowledge Base: Climate Philanthropy"
 theme:
   name: material
   #  favicon: attachment/portrait.png
   language: en #
   features:
-    - navigation.expand 
-    - tabs 
+    - navigation.expand # sections are expanded by default
+    - navigation.tabs # tabs at top of page are added
+    - navigation.tabs.sticky # headers remain visible while scrolling
+    # - navigation.sections # sections within sidebar tabs are added
+    - tabs # sidebar navigation tabs are present
 markdown_extensions: 
   - attr_list # https://squidfunk.github.io/mkdocs-material/reference/images/
   - pymdownx.tabbed  # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
