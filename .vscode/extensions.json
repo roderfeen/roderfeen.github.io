@@ -9,7 +9,7 @@
     "yzhang.markdown-all-in-one",
 
     // Image-pasting for markdown
-    "mushan.vscode-paste-image",
+    // "mushan.vscode-paste-image",
 
     // Spell checking for text, markdown and latex
     "ban.spellright",
