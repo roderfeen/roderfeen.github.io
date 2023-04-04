@@ -1,3 +1,4 @@
+<!-- https://github.com/roderfeen/foam-mkdocs-template This is the main page of the website -->
 # Using Foam
 
 Foam is a collection VS Code extensions and recipes that power up the editor
