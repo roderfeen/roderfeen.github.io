@@ -1,9 +1,9 @@
-<!-- https://github.com/roderfeen/foam-mkdocs-template This is the main page of the website -->
+<!-- Landing page -->
 # Welcome
 
 ## Concepts
 
-Have a look at the [[concepts]] and [[overview]]
+Have a look at the
 
 ## Theory
 

@@ -1,6 +1,7 @@
 # official tutorial 
-# mkdocs-material: https://squidfunk.github.io/mkdocs-material/
-# mkdocs: https://www.mkdocs.org/user-guide/configuration/
+# mkdocs-material:  https://squidfunk.github.io/mkdocs-material/
+# mkdocs:           https://www.mkdocs.org/user-guide/configuration/
+# This template:    https://github.com/roderfeen/foam-mkdocs-template
 
 site_name: "Knowledge Base: Climate Philanthropy"
 theme:
